@@ -1,0 +1,57 @@
+
+
+
+.container {
+  width: 100vw;
+  min-width: 320px;
+  max-width: 480px;
+  padding: 0 20px;
+  margin: 0 auto;
+  outline: 1px solid blue;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding: 0 32px;
+    background-image:
+        url("/image/bbbb.png"),
+        url("/image/bbbb.png"),
+        url("/image/ccccc.png"),
+        url("/image/bubl-hero.png"),
+        url("/image/aaa.png");
+    
+      background-repeat: no-repeat;
+      background-position: left 350px bottom 30px,
+      left -40px bottom 30px,
+       left 600px bottom 220px, left 1000px bottom 150px,
+        left 100px bottom 200px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+    padding: 0 16px;
+  }
+}
+
+
+
+
+// .container {
+//   max-width: 320px;
+//   padding: 0 20px;
+//   margin: 0 auto;
+//   outline: 1px solid red;
+
+//     @media screen and (max-width: 480px) {
+//         max-width: 480px;
+
+//       }
+
+//   @media screen and (min-width: 768px) {
+//     max-width: 768px;
+//     padding: 0 32px;
+//   }
+//   @media screen and (min-width: 1280px) {
+//     max-width: 1280px;
+//     padding: 0 16px;
+//   }
+// }
