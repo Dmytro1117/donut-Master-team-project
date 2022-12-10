@@ -1,18 +1,22 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
-@import '~node_modules/tui-pagination/dist/tui-pagination.min.css';
-
-@import './components/basicLightbox';
-@import './components/filters';
-@import './components/theme-switcher';
-@import './components/up-btn';
-
+@import './common';
 @import './utils/variables';
-
 @import './base/base';
 @import './base/container';
-
-@import './components/loading-dots';
+@import './components/button';
+@import './components/up-button';
+@import './components/slick';
+@import './components/section';
+@import './components/mob-menu';
+@import './components/soc-list';
+@import './components/logo';
 @import './layout/header';
-@import './layout/main';
+@import './layout/hero';
+@import './layout/about-us';
+@import './layout/speakers';
+@import './layout/price';
+@import './layout/reviews';
+@import './layout/program';
+@import './layout/registration';
+@import './layout/contact';
 @import './layout/footer';
-@import './layout/modal';
+@import './layout/background';

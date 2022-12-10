@@ -1,54 +1,81 @@
-<header class="header header--search js-header">
+<header class="section header" id="top">
   <div class="container header__container">
-    <button class="header__btn js-watchSomething-btn">Watch Something</button>
-    <div class="header__nav">
-      <button class="js-logo header__btn">
-        <div class="header__logo"></div>
-        <span class="header__text-logo">Filmoteka </span>
-      </button>
-      <div class="wrapper">
-        <button class="js-home-btn header__btn header__home-btn current">Home</button>
-        <button class="js-lyb-btn header__btn header__lyb-btn">My library</button>
-        <button class="js-signIn-btn header__btn header__home-btn sign-btn is-hidden">
-          <svg width="16" height="16">
-            <use href="./images/icons.svg#icon-sign-in"></use>
-          </svg>
-          &nbsp Sign In
-        </button>
-        <button class="js-signOut-btn header__btn header__lyb-btn sign-btn is-hidden">
-          Sign Out &nbsp
-          <svg width="16" height="16">
-            <use href="./images/icons.svg#icon-sign-out"></use>
-          </svg>
-        </button>
-      </div>
-      <p class="js-userStatus userStatus"></p>
-    </div>
-    <form class="js-search-form header_form">
-      <label class="header__input-label">
-        <input
-          placeholder="Movie search"
-          class="header__input js-search-input"
-          type="text"
-          name="searchQuery"
-      /></label>
-      <button class="header__btn header__search-btn"></button>
-      <span class="header__error is-hidden"
-        >Search result not successful. Enter the correct movie name and
-      </span>
-    </form>
-    <div class="wrap-lyb-nav">
-      <button class="js-watched-btn header__lyb-nav-btn active is-hidden">Watched</button>
-      <button class="js-queued-btn header__lyb-nav-btn is-hidden">Queue</button>
-    </div>
-    <dim class="theme-wrapper">
-      <span class="js-theme-name">Світла тема</span>
-      <form class="js-theme-form">
-        <label class="switch">
-          <input type="checkbox" />
-          <span class="slider round"></span>
-        </label>
-      </form>
-    </dim>
+    <nav class="header__nav">
+      <a class="header__logo" href="#hero">
+        <svg class="logo">
+          <use href="./images/icons.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#about-us">About us</a>
+        </li>
+
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#program">Program</a>
+        </li>
+
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#speakers">Speakers</a>
+        </li>
+
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#price">Price</a>
+        </li>
+
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#reviews">Reviews</a>
+        </li>
+
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="mob-menu__button-open" type="button">
+      <svg class="mob-menu__icon mob-menu__icon--open">
+        <use href="./images/icons.svg#icon-menu-burger"></use>
+      </svg>
+    </button>
   </div>
+  <div class="mob-menu">
+    <nav class="mob-menu__nav container">
+      <a class="mob-menu__logo" href="#hero">
+        <svg class="logo">
+          <use href="./images/icons.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <ul class="mob-menu__nav-list">
+        <li class="mob-menu__nav-item">
+          <a class="mob-menu__nav-link" href="#about-us">About us</a>
+        </li>
+
+        <li class="mob-menu__nav-item">
+          <a class="mob-menu__nav-link" href="#program">Program</a>
+        </li>
+
+        <li class="mob-menu__nav-item">
+          <a class="mob-menu__nav-link" href="#speakers">Speakers</a>
+        </li>
+
+        <li class="mob-menu__nav-item">
+          <a class="mob-menu__nav-link" href="#price">Price</a>
+        </li>
+
+        <li class="mob-menu__nav-item">
+          <a class="mob-menu__nav-link" href="#reviews">Reviews</a>
+        </li>
+
+        <li class="mob-menu__nav-item">
+          <a class="mob-menu__nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <button class="mob-menu__button-close" type="button">
+        <svg class="mob-menu__icon mob-menu__icon--close">
+          <use href="./images/icons.svg#icon-close-cross"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+  <a class="up-button" href="#top"></a>
 </header>
