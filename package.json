@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Dmytro1117.github.io/rrrrrrrrrrrrrrr",
+  "homepage": "https://Dmytro1117.github.io/donut-Master-team-project",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /rrrrrrrrrrrrrrr/"
+    "build": "parcel build src/*.html --public-url /donut-Master-team-project/"
   },
   "repository": {
     "type": "git",
